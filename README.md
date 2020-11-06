@@ -1,2 +1,3 @@
-# terraform-proxmox
-Terraform provisioning on proxmox
+# terraform
+Terraform scripts for :
+  -Proxmox
