@@ -1,0 +1,12 @@
+variable "pm_api_url" {
+  default = "https://10.0.0.1/api2/json"
+}
+
+variable "pm_user" {
+  default = "proxmoxadmin@pam"
+}
+#no password here. use $PM_PASS
+
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrqPwYdAxQPGBB28IgPpaMXIukeqRa4f/LpU7ljWUcYQ95QLfcsE3wzKtA2iCW8HLbBROgtcH3wU/VRRrY8PkLEV1E2JTUUKt1S6xK0U6xC3CtTe5kK6EDKmxakEt0TZEvbqYXvgijX7Gn1YBcnYxRxYG8vmTeFRLsL+1jLFlAAZWu7eAPi75smtSf3s2RTe9CpDcuHRIjsF6s/WaGaDLEveOfip0h7NcbF3aePXWdIM2F6pbjQZ74lsgctAyLM4pOkjZgz6WgPDOyyyXsB3eAiGM68uYIjFcfGHQs13owRDFn8w25UZmlLr7IF7v6R+O/ScqbigvcLt0U03lWPZSA8TYWjfAkJE8jxBTCiqKbnSIZYc1J6rb7uHc3FRZojKtJWnbEv+wm5F8g/X5dCEuHaKPivuklGa8t0dkkD/CR5vd7XGaiu0CD+RCBioJQ6Ae0mQ4jktwkxHEs30qZ363z5Aby3O4FBsQ04sHngueDnawMwtWYd+Tsa+BugjxD1SFrxLfGfZ6RFNy7yR+aR610bXeF2GMNDhl8A/F9D4SWeIhO3Ee7rTI86lNHy4nVv744iw23TMUTwtw0I680lKbdk9MUHxSbwiye2nDR9Wpsgg6cpkXunVHvhx3voqoOjOJSmiGwXsZW4h8NNvCm0YrrWRc+YCO9RGV1aDRr/BoBLQ== liam.mail.1337@gmail.com"
+}

@@ -1,3 +1,3 @@
-# terraform
+# Terraform
 Terraform scripts for :
   -Proxmox

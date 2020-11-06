@@ -1,0 +1,5 @@
+ref:
+https://github.com/Telmate/terraform-provider-proxmox
+
+export password :
+export PM_PASS=xxx
